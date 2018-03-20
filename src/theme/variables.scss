@@ -38,7 +38,8 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  white:      #fff
 );
 
 
@@ -84,5 +85,22 @@ $colors: (
 // Fonts
 // --------------------------------------------------
 
-@import "roboto";
-@import "noto-sans";
+@font-face {
+	font-family: "raleway-light";
+	src: url("../assets/fonts/raleway/raleway-light.ttf") format("truetype");
+	font-style: light;
+}
+
+@font-face {
+	font-family: "raleway-regular";
+	src: url("../assets/fonts/raleway/raleway-regular.ttf") format("truetype");
+	font-style: regular;
+}
+
+@font-face {
+	font-family: "raleway-thin";
+	src: url("../assets/fonts/raleway/raleway-thin.ttf") format("truetype");
+	font-style: thin;
+}
+
+

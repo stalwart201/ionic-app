@@ -7,8 +7,28 @@ page-home {
 	ion-grid {
 		margin-top: 40vw;
 	}
+	.item {
+		background-color: #fff00;
+	}
+	.item-inner {
+		border-bottom: none !important;
+		box-shadow: none !important;
+	}
+	.scroll-content {
+		background-color: rgba(0,0,0, 0.55);
+	}
 	.title {
 		text-align: center;
 		color: #fff;
+	}
+	.hero-name {
+		font-size: 7.5vw;
+	}
+	.register-button {
+		margin-top: 10vw;
+		button {
+			margin-top: 0 auto;
+			padding: 5vw;
+		}
 	}
 }

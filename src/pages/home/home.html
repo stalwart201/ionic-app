@@ -2,24 +2,24 @@
   <ion-grid>
 		<ion-row>
 			<ion-col class="title">
-				<h2>Biker Singh</h2>
+				<h2 class="hero-name">Biker Singh</h2>
 			</ion-col>
 		</ion-row>
 		<ion-row>
 			<ion-col col-4>
 				<ion-item>
-					<ion-label color="primary" floating>cc</ion-label>
-					<ion-input></ion-input>
+					<ion-label outline floating>cc</ion-label>
+					<ion-input type="number"></ion-input>
 				</ion-item>
 			</ion-col>
 			<ion-col col-8>
 				<ion-item>
-					<ion-label color="primary" floating>Phone</ion-label>
-					<ion-input></ion-input>
+					<ion-label outline floating>Phone</ion-label>
+					<ion-input type="tel" [attr.maxlength]="15"></ion-input>
 				</ion-item>
 			</ion-col>
 			<ion-col class="register-button">
-				<button ion-button outline block color="blue">Sign In</button>
+				<button ion-button outline block color="white">Sign In</button>
 			</ion-col>
 		</ion-row>
 	</ion-grid>
