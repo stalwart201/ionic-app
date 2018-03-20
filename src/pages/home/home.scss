@@ -1,3 +1,14 @@
 page-home {
-
+	ion-content{
+		background-size: cover;
+		background-position: center center;
+		color: #FFF;
+	}
+	ion-grid {
+		margin-top: 40vw;
+	}
+	.title {
+		text-align: center;
+		color: #fff;
+	}
 }
